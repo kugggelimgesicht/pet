@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    //позволяет работать с пакетами, использующими комон джс,
+    //как с обычными пакетами с помощью импорт
+    "esModuleInterop": true,
+    //если используемая библиотека не имеет дефолтных импортов,
+    //данный флаг автоматически их создает
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
