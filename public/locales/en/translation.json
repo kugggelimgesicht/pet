@@ -2,5 +2,8 @@
   "home":"home",
   "about": "about us",
   "translate": "translate",
-  "toggleLang": "Page in English"
+  "toggle_lang": "Page in English",
+  "page_not_found": "Page not found",
+  "unexpected_error": "Unexpected error occured",
+  "refresh": "refresh"
 }

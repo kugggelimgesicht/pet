@@ -2,5 +2,8 @@
   "home":"Hauptseite",
   "about": "über uns",
   "translate": "übersetzen",
-  "toggleLang": "Seite auf Deutsch"
+  "toggle_lang": "Seite auf Deutsch",
+  "page_not_found": "Seite nicht gefunden",
+  "unexpected_error": "Unerwarteter Fehler aufgetreten",
+  "refresh": "neu laden"
 }

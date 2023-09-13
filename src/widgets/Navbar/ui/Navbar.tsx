@@ -17,10 +17,10 @@ export const Navbar = ({ className }: NavbarProps) => {
             <LanguageSwitcher />
             <div className={cls.links}>
                 <AppLink theme={AppLinkTheme.SECONDARY} to={RoutePath.main} className={cls.mainLink}>
-                    {t`home`}
+                    {t('home')}
                 </AppLink>
-                <AppLink theme={AppLinkTheme.RED} to={RoutePath.about}>
-                    {t`about`}
+                <AppLink theme={AppLinkTheme.SECONDARY} to={RoutePath.about}>
+                    {t('about')}
                 </AppLink>
             </div>
         </div>
